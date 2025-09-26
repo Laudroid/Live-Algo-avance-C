@@ -23,7 +23,7 @@
 - Analyse de cas (pire, meilleur, moyen).
 - Calcul de complexité pour des algorithmes récursifs et itératifs.
 - Impact de la complexité sur la performance des grands jeux de données.
-#### Théorie: Optimisation et Gestion Mémoire Avancée (0.5h)
+#### Théorie: Optimisation et Gestion Mémoire Avancée
 
 - Choix de structures de données : tableau vs liste chaînée, leurs compromis.
 - Rappel sur la pile et le tas (stack and heap).
@@ -32,7 +32,7 @@
 - Introduction aux dernières évolutions du langage C (C17, C23) et leur impact potentiel sur la gestion mémoire ou la sûreté du code.
 #### TP: Analyse et Gestion Mémoire
 
-## 2: Structures de données dynamiques avancées (3 heures)
+## 2: Structures de données dynamiques avancées
 ### Objectifs pédagogiques
 
 - Concevoir et implémenter des listes doublement chaînées et circulaires.
@@ -53,7 +53,7 @@
 - Complexité des opérations (insertion, recherche, suppression).
 #### TP: Implémentation des Structures Avancées 
 
-## 3: Arbres binaires et arbres équilibrés (3 heures)
+## 3: Arbres binaires et arbres équilibrés
 
 ### Objectifs pédagogiques
 
@@ -76,7 +76,7 @@
 - Introduction aux arbres Rouge-Noir (propriétés, quelques exemples de rééquilibrage).
 #### TP: Manipulation d'ABR
 
-## 4: Graphes et algorithmes associés (3 heures)
+## 4: Graphes et algorithmes associés
 
 ### Objectifs pédagogiques
 

@@ -34,7 +34,7 @@ La complexité algorithmique se focalise sur la façon dont le temps d’exécut
 
 ```mermaid
 graph TD
-    A["Taille des données ( n )] --> B["Temps pour ( O(n) )"]
+    A["Taille des données ( n )"] --> B["Temps pour ( O(n) )"]
     A --> C["Temps pour ( O(n log n) )"]
     A --> D["Temps pour ( O(n^2) )"]
 
@@ -80,14 +80,14 @@ Pour \( n = 10^9 \), la recherche dichotomique effectue environ 30 comparaisons 
 ```mermaid
 flowchart TB
     Start((Début))
-    Start --> CheckSize{Taille des données (n)}
+    Start --> CheckSize{"Taille des données n"}
     CheckSize -->|Petit < 10^2| InsertionSort
     CheckSize -->|Moyen / Grand ≥ 10^2| MergeOrQuick
-    CheckSize -->|Cas particuliers (entiers, clés bornées)| LinearSort
+    CheckSize -->|Cas particuliers entiers clés bornées| LinearSort
 
-    InsertionSort([Tri par insertion: O(n^2)])
-    MergeOrQuick([Tri fusion / quicksort: O(n log n)])
-    LinearSort([Tri par comptage / radix: O(n)])
+    InsertionSort["Tri par insertion: O(n^2)"]
+    MergeOrQuick["Tri fusion / quicksort: O(n log n)"]
+    LinearSort["Tri par comptage / radix: O(n)"]
 
     style InsertionSort fill:#f66,stroke:#333,stroke-width:2px
     style MergeOrQuick fill:#f96,stroke:#333,stroke-width:2px
