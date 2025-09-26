@@ -1,5 +1,5 @@
 # Cours Avancé en Algorithmique — Séance 2 : Structures de données dynamiques avancées  
-## Partie 2 : Théorie — Tables de Hachage (1h)  
+## Partie 2 : Théorie — Tables de Hachage  
 ### Contenu : Complexité des opérations (insertion, recherche, suppression)
 
 ---
